@@ -1,10 +1,12 @@
-// ...existing code...
+import React from "react";
+
 function App() {
   return (
-    <div>
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Welcome to ZavConnect!</h1>
-      <p>Your app is deployed and working.</p>
+      <p>Your app is live and working on Vercel.</p>
     </div>
   );
 }
-// ...existing code...
+
+export default App;
